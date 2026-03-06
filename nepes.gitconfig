@@ -1,0 +1,23 @@
+# Nepes Dark — delta configuration
+# Include in ~/.gitconfig:  [include] path = nepes.gitconfig
+
+[delta]
+    syntax-theme = nepes-dark
+    line-numbers = true
+    side-by-side = true
+    minus-style = syntax "#A81E23"
+    minus-emph-style = syntax "#E1575C"
+    plus-style = syntax "#348A3A"
+    plus-emph-style = syntax "#43AD49"
+    line-numbers-minus-style = "#E1575C"
+    line-numbers-plus-style = "#43AD49"
+    line-numbers-zero-style = "#787068"
+    line-numbers-left-format = "{nm:>4} "
+    line-numbers-right-format = "{np:>4} "
+
+[delta "decorations"]
+    commit-decoration-style = "#6A84CA" ol
+    file-style = "#DCD8D4" bold
+    file-decoration-style = "#6A84CA" ul
+    hunk-header-decoration-style = "#3A9BA5" box
+    hunk-header-style = file line-number "#B6B0AC"
