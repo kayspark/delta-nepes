@@ -6,18 +6,18 @@
     line-numbers = true
     side-by-side = true
     minus-style = syntax "#A81E23"
-    minus-emph-style = syntax "#E1575C"
+    minus-emph-style = syntax "#FF5C5C"
     plus-style = syntax "#348A3A"
-    plus-emph-style = syntax "#43AD49"
-    line-numbers-minus-style = "#E1575C"
-    line-numbers-plus-style = "#43AD49"
+    plus-emph-style = syntax "#3DDC84"
+    line-numbers-minus-style = "#FF5C5C"
+    line-numbers-plus-style = "#3DDC84"
     line-numbers-zero-style = "#787068"
     line-numbers-left-format = "{nm:>4} "
     line-numbers-right-format = "{np:>4} "
 
 [delta "decorations"]
-    commit-decoration-style = "#6A84CA" ol
+    commit-decoration-style = "#5C8CFF" ol
     file-style = "#DCD8D4" bold
-    file-decoration-style = "#6A84CA" ul
+    file-decoration-style = "#5C8CFF" ul
     hunk-header-decoration-style = "#3A9BA5" box
     hunk-header-style = file line-number "#B6B0AC"
