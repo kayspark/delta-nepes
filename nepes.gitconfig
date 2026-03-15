@@ -5,10 +5,10 @@
     syntax-theme = nepes-dark
     line-numbers = true
     side-by-side = true
-    minus-style = syntax "#A81E23"
-    minus-emph-style = syntax "#FF5C5C"
-    plus-style = syntax "#348A3A"
-    plus-emph-style = syntax "#3DDC84"
+    minus-style = syntax "#392321"
+    minus-emph-style = syntax "#562C2A"
+    plus-style = syntax "#213326"
+    plus-emph-style = syntax "#254C34"
     line-numbers-minus-style = "#FF5C5C"
     line-numbers-plus-style = "#3DDC84"
     line-numbers-zero-style = "#787068"
