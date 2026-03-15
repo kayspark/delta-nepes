@@ -1,23 +1,27 @@
-# Nepes Dark — delta configuration
-# Include in ~/.gitconfig:  [include] path = nepes.gitconfig
+# Nepes Dark — delta color theme
+# Include in ~/.gitconfig:  [include] path = ~/workspace/colorscheme/delta-nepes/nepes.gitconfig
 
-[delta]
+[delta "nepes-dark"]
     syntax-theme = nepes-dark
-    line-numbers = true
-    side-by-side = true
+    dark = true
     minus-style = syntax "#392321"
     minus-emph-style = syntax "#562C2A"
     plus-style = syntax "#213326"
     plus-emph-style = syntax "#254C34"
+    inline-hint-style = "#787068"
     line-numbers-minus-style = "#FF5C5C"
     line-numbers-plus-style = "#3DDC84"
     line-numbers-zero-style = "#787068"
-    line-numbers-left-format = "{nm:>4} "
-    line-numbers-right-format = "{np:>4} "
-
-[delta "decorations"]
     commit-decoration-style = "#5C8CFF" ol
     file-style = "#DCD8D4" bold
     file-decoration-style = "#5C8CFF" ul
     hunk-header-decoration-style = "#3A9BA5" box
     hunk-header-style = file line-number "#B6B0AC"
+
+[color "diff"]
+    meta = "bold #5C8CFF"
+    frag = "bold #3A9BA5"
+    old = "#FF5C5C"
+    new = "#3DDC84"
+    commit = "bold #5C8CFF"
+    whitespace = "reverse #FF5C5C"
